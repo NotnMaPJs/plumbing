@@ -1,0 +1,132 @@
+:root{
+	--primary: #ddd;
+	--dark: #333;
+	--light: #fff;
+	--sand: #d2c194;
+	--black: #000;
+	--orange: #EF7D12;
+	--green: #2BB71C;
+	--mocha: #CDA46B;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html{
+	box-sizing: border-box; /* If padding is used, won't affect width of the element */
+	font-family: Arial, Helvetica, sans-serif;
+	color: var (--black);
+}
+
+body {
+	background: var(--sand);
+	margin: 30px 50px; 
+	line-height: 1.4;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: grid;
+	gap: 20px;
+}
+
+/* Navigation */
+.main-nav ul {
+	display: grid;
+	gap: 20px;
+	padding: 0;
+	list-style: none;
+	/*grid-template-columns: repeat(4, 1fr);*/
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.main-nav a {
+	background: var(--mocha);
+	display: block;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-align: center;
+	color: var(--dark);
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	box-shadow: var(--shadow);
+}
+
+.main-nav a:hover{
+	background: var(--orange);
+	color: var(--light);
+}
+
+.top-container {
+    background-image: url(cafe-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-items: center;
+	min-height: 300px;
+	display: grid;
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	
+}
+
+.content {
+	grid-area: content;
+	background-color: #C34B73;
+	padding: 1rem;
+}
+
+/* Boxes */
+.boxes {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box{
+	background: var(--primary);
+	text-align: center;
+	padding: 1.5rem 2rem;
+	box-shadow: var(--shadow);
+}
+
+footer {
+	grid-area: footer;
+	margin-top: 2rem;
+	background: var(--dark);
+	color: var(--light);
+	text-align: center;
+	padding: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	box-shadow: var(--shadow);
+}
+
+footer a:link {
+  color: var(--orange);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--green);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Media Query */
+@media (max-width: 700px){
+	
+	.main-nav ul {
+		grid-template-columns: 1fr;
+	}
+}

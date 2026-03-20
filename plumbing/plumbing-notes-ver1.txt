@@ -1,0 +1,77 @@
+### 7:57 AM 3/20/2026
+
+## LONG LAKE PLUMBING NOTES & CONTENT
+
+- Need 4 pages (contact.html, about.html, services.html, how-to.html)
+
+
+### about.html Content
+
+Long Lake Plumbing in Traverse City, Michigan  was established in 2005 by Bob Walters, the third generation of master plumbers with the Walters name.  Bob's grandfather, Herman, started the company, which John Walters, Bob's father, carried on as the second generation.
+
+### About Bob Walters
+
+- Owner of Long Lake Plumbing
+- Master plumber
+- Licensed with the State of Michigan
+- Insured with Farm Bureau of Michigan
+
+### My Business Philosophy
+
+At Long Lake Plumbing, doing quality work on time and at a reasonable price is what I'm all about.
+
+I'll assess your needs, and let you know if I can complete the job in a reasonable amount of time.  If necessary, I
+can also refer you to other specialists (such as electricians or masons) you might need to complete your renovation or home upgrade.
+
+
+- Need to add photos of each generation of plumbers
+- One of Bob Walters, one of Herman Walters, the last of John Walters.
+
+
+
+
+
+
+### services.html Content
+
+At Long Lake Plumbing, we specialize in customer satisfaction.  
+
+Services we offer include:
+
+- New home plumbing 
+- Remodeling
+- Light commercial work
+- Service calls
+- Backflow tests
+
+Service Charge: $125.00 / hour
+Hours of Operation: Mon - Friday (8:00 AM - 5:00 PM)
+(We do not offer 24-hour emergency service calls.)
+
+Service Area:
+
+I make service calls in the five-county area (Grand Traverse, Benzie, Leelanau, Antrim and Kalkaska counties).
+
+### contact.html Content
+
+Need a quote?  Are you looking for advice about running your plumbing for a remodeling project?  
+
+Give me a call or email me at:
+
+Phone/Text: (231) 590-9628 (Preferred)
+
+Address: 4792 Ridgewater Run, Traverse City, MI
+
+(Embed a Google Map of his address in the contact.html page)
+
+Email: plumbob6262@gmail.com
+
+
+
+### how-to.html Content
+
+Mr. Walters wants to add quality YouTube videos about:
+
+- How to winterize your plumbing for running water
+- Where to find the shut-off valve in your house (shut-off valve location)
+
