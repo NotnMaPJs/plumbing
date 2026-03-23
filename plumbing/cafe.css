@@ -27,9 +27,11 @@ body {
 .wrapper {
 	display: grid;
 	gap: 20px;
+	margin: 5% 0 0 0;
 }
 
 /* Navigation */
+/* maybe use flexbox? */
 .main-nav ul {
 	display: grid;
 	gap: 20px;
@@ -57,7 +59,7 @@ body {
 }
 
 .top-container {
-    background-image: url(cafe-bg.jpg);
+    background-image: url(images/wrench-metal-pipe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
