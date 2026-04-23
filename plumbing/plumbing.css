@@ -1,3 +1,10 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 :root{
 	--primary: #ddd;
 	--dark: #333;
@@ -7,8 +14,8 @@
 	--very-light-grey: rgb(163, 156, 156);
 
 	--black: #000;
-	--orange: #EF7D12;
-	--mocha: #CDA46B;
+	--orange: #f09744;
+	--orange-red: #fc7a00;
 	--shadow: 0 1px 5px rgba(26, 24, 24, 0.8);
 	--steelblue: rgb(36, 83, 145);
 }
@@ -36,7 +43,7 @@ body {
 .main-nav {
 	width: 100%;
 	height: 60px;
-	background-color: var(--orange);
+	background-color: var(--orange-red);
 	display: flex;
 	align-items:center;
 	justify-content: center;
@@ -76,6 +83,17 @@ body {
 	border: none;
 }
 
+.title {
+	text-align: center;
+	background-color: var(--very-light-grey);
+	height: 50px;
+	align-content: center;
+
+}
+
+
+
+
 
 .top-container {
     background-image: url(images/wrench-metal-pipe.jpg);
@@ -89,17 +107,20 @@ body {
 	width: 75%;
 	margin: auto;
 	box-shadow: var(--shadow);
+	
 }
 
 .content {
-	width: 72.7%;
+	width: 75%;
 	/* background-color: var(--mocha); */
 	background-color: var(--very-light-grey);
-	padding: 1rem;
+	padding: 40px;
 	margin: auto;
 	box-shadow: var(--shadow);
 }
 
+p {margin-bottom:10px;};
+h3 {margin: 20px}
 /* Boxes */
 .boxes {
 	display: grid;
